@@ -1,0 +1,2 @@
+pip install chatgpt-api
+chatgpt-api 0.2.1
