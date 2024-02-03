@@ -1,10 +1,6 @@
 import datetime
-import sys
-sys.path.append('C:/Users/Ольга/OneDrive/Рабочий стол/module/application')
-import sys
-sys.path.append('C:/Users/Ольга/OneDrive/Рабочий стол/module/application/db')
-from salary import calculate_salary
-from people import get_employes
+from application.salary import calculate_salary
+from application.db.people import get_employes
 
 dt = datetime.datetime.today()
 
